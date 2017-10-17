@@ -1,0 +1,129 @@
+{%
+  set classes = [
+    'node',
+    'node-detail',
+    'node--type-' ~ node.bundle|clean_class,
+    node.isPromoted() ? 'node--promoted',
+    node.isSticky() ? 'node--sticky',
+    not node.isPublished() ? 'node--unpublished',
+    view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
+    'clearfix',
+  ]
+%}
+
+<!-- Start Display article for teaser page -->
+
+{% if view_mode == 'teaser' %}
+  
+  <div class="product-block">      
+    <div class="content-inner">
+      <div class="image-inner">
+        {{ content.uc_product_image }}
+        <div class="action-hover">
+          <div class="add-to-cart-block-teaser">
+            <a class="btn-link-select-option" href="{{ url }}">{{ 'Options'|t }}</a>
+            {{ content.add_to_cart|raw }}
+          </div>
+          <div class="quickview"><a class="link-quickview" href="{{ url }}">{{ 'QuickView'|t }}</a></div>
+        </div>
+      </div>
+      <div class="product-content">
+        <h4 class="title"><a href="{{ url }}" rel="bookmark">{{ label }}</a> </h4> 
+        <div class="content-inner">
+          <div class="price"><div class="regular-price">{{ content.price }}</div></div>
+        </div> 
+      </div>
+    </div>
+  </div>
+
+{% elseif view_mode == 'teaser_2' %}
+
+  <div class="product-block-v2">      
+    <div class="content-inner">
+      <div class="image-inner">
+        {{ content.uc_product_image }}
+      </div>
+      <div class="product-content">
+        <div class="post-categories">{{ content.taxonomy_catalog }}</div>
+        <h4 class="title"><a href="{{ url }}" rel="bookmark">{{ label }}</a> </h4> 
+        <div class="content-inner">
+          <div class="product-summary">{{ node.body.summary }}</div>
+          <div class="price"><div class="regular-price">{{ content.price }}</div></div>
+        </div>
+        <div class="action-hover">
+          <div class="add-to-cart-block-teaser">
+            <a class="btn-link-select-option" href="{{ url }}">{{ 'Options'|t }}</a>
+            {{ content.add_to_cart|raw }}
+          </div>
+          <div class="quickview"><a class="link-quickview" href="{{ url }}">{{ 'QuickView'|t }}</a></div>
+        </div> 
+      </div>
+    </div>
+  </div>
+
+{% else %}
+
+<!-- Start Display article for detail page -->
+<article{{ attributes.addClass(classes) }}>
+  <div class="product-single">
+    <div id="product-content-top">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 col-xs-12">
+          <div class="product-thumbnail">
+            {% if content.uc_product_image %}
+              {{ content.uc_product_image }} 
+            {% endif %}
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-6 col-xs-12">  
+          <div class="product-content-inner">
+            {{ title_prefix }}
+               <h1{{ title_attributes.addClass('post-title') }}>{{ label }}</h1>
+            {{ title_suffix }}         
+            <div class="product-info">
+              {{ content.price }}
+              {{ content.model }}
+              <div class="post-categories">{{ content.taxonomy_catalog }}</div>
+              <div class="product-summary">{{ node.body.summary }}</div>
+              <div class="add-to-cart-content-inner">
+                {{content.add_to_cart|raw}}
+              </div>
+            </div>  
+          </div>
+        </div>  
+      </div>  
+    </div>
+    
+    <div class="product-content-bottom">  
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="tab-product">
+            <ul class="nav nav-tabs">
+              <li class="active"><a data-toggle="tab" href="#tab-8a52b-1">{{'Description'|t}}</a></li>
+              {% if content.comment %}
+                <li><a data-toggle="tab" href="#tab-8a52b-2">{{'Reviews'|t}}</a></li>
+              {% endif %}  
+            </ul>
+            <div class="tab-content">
+              <div id="tab-8a52b-1" class="tab-pane fade in active">
+                <div{{ content_attributes.addClass('node__content', 'clearfix') }}>
+                  {{ content|without('taxonomy_catalog', 'uc_product_image', 'display_price', 'price', 'comment', 'add_to_cart', 'model', 'field_product_type') }}
+                </div>
+              </div>
+              {% if content.comment %}
+                <div id="tab-8a52b-2" class="tab-pane fade">
+                  <div id="node-single-comment">
+                    {{ content.comment }}
+                  </div>
+                </div>  
+              {% endif %}
+            </div>  
+          </div>  
+        </div>
+      </div>      
+    </div>  
+
+  </div>
+</article>
+<!-- End Display article for detail page -->
+{% endif %}

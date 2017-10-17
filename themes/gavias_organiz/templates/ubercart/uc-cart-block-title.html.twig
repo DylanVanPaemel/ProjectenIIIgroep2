@@ -1,0 +1,13 @@
+{% if show_icon and cart_empty %}
+  <a class="link-open-cart"><span class="gv-icon-938 empty" title="{{ 'View your shopping cart.'|t }}"><span class="item-count">{{ item_count }}</span><span class="count-title">{{ 'items'|t }}</span></span></a>
+{% elseif show_icon %}
+  <a class="link-open-cart"><span class="gv-icon-938" title="{{ 'View your shopping cart.'|t }}"><span class="item-count">{{ item_count }}</span><span class="count-title">{{ 'items'|t }}</span></span></a>
+{% endif %}
+
+{% if collapsible and collapsed %}
+  <span class="cart-block-arrow collapsed" title="{{ 'Show/hide shopping cart contents.'|t }}"><span class="title">{{ title }}</span></span>
+{% elseif collapsible %}
+  <span class="cart-block-arrow" title="{{ 'Show/hide shopping cart contents.'|t }}"><span class="title">{{ title }}</span></span>
+{% else %}
+  <span class="title">{{ title }}</span>
+{% endif %}

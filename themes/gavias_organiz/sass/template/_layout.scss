@@ -1,0 +1,132 @@
+body{
+  &.boxed{ 
+    max-width: 1440px;  
+    margin: 0 auto;
+    @include box-shadow(0px 5px 5px rgba(0, 0, 0, 0.15));
+    background-color: #E2E7EA;
+    div.body-page{
+      background: $white;
+    }
+  }
+  &.boxed-v2{
+    background: #F3F1EB;
+    .body-page-content{
+      background: none;
+      padding: 0 35px;
+      margin-top: 35px;
+      .gva-body-page{
+        background: $white;
+      }
+    }
+  }
+}
+.language-box{
+  .links{
+    > li{
+      margin-right: 10px;
+      @include opacity(0.6);
+      line-height: 1;
+      margin-top: 5px;
+      float: right;
+      &.is-active{
+        @include opacity(1);
+      }
+    }
+  }
+}
+
+.area{
+  &.slideshow_content{
+    .block{
+      margin-bottom: 0;
+    }
+  }
+}
+
+.area-panel{
+  padding: 30px 0;
+}
+
+.header-right{
+  .block{
+    margin-bottom: 0;
+  }
+}
+
+.promotion{
+  padding: 0;
+  margin-bottom: 0;
+}
+
+#page-main-content{
+  min-height: 360px;
+  @media(max-width: $screen-sm-max){
+    min-height: 100px;
+  }
+}
+
+.main-menu{
+  .area-main-menu{
+    .area-inner{
+      .block{
+        margin-bottom: 0;
+      }
+    }  
+  }
+}  
+
+.sidebar{
+  position: relative;
+}
+
+.footer{
+  font-size: 15px;
+  line-height: 28px;
+  background: #fff;
+  .footer-top{
+    .before-footer{
+      padding: 30px 0;
+      border-top: 1px solid $border-color;
+    }
+  }
+  .footer-center{
+    padding: 65px 0 50px;
+    background: url('#{$base-theme-image-path}/bg-copyright.png') no-repeat bottom center #F2F6F9;
+    .block-menu{
+      float: left;
+      width: 100%;
+      ul{
+        width: 100%;
+        padding: 0; margin: 0;
+        li{
+          width: 100%;
+          a{
+            padding: 0;
+            text-transform: capitalize;
+            font-size: 14px;
+            font-weight: 400;
+            color: $text-color;
+            &:hover{
+              color: $theme-color;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.copyright{
+  background: #fff;
+  a{
+    &:hover{
+      color: $theme-color;
+    }
+  }
+  .copyright-inner{
+    padding: 22px 0;
+    .block{
+      margin: 0;
+    }
+  }
+}
