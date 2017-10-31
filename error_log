@@ -1,3 +1,119 @@
 [19-Oct-2017 16:24:46 Europe/Berlin] Uncaught PHP Exception InvalidArgumentException: "The internal path component 'shop' is invalid. Its path component must have a leading slash, e.g. internal:/foo." at /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/Url.php line 404
 [19-Oct-2017 16:24:55 Europe/Berlin] Uncaught PHP Exception InvalidArgumentException: "The internal path component 'shop' is invalid. Its path component must have a leading slash, e.g. internal:/foo." at /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/Url.php line 404
 [20-Oct-2017 13:22:37 Europe/Berlin] Uncaught PHP Exception InvalidArgumentException: "The internal path component 'shop' is invalid. Its path component must have a leading slash, e.g. internal:/foo." at /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/Url.php line 404
+[23-Oct-2017 11:26:31 Europe/Berlin] Uncaught PHP Exception Drupal\Core\Database\DatabaseExceptionWrapper: "SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ourbus1q_projectenIII.field_deleted_data_c96853fab9' doesn't exist: SELECT DISTINCT t.entity_id AS entity_id
+FROM 
+{field_deleted_data_c96853fab9} t
+WHERE bundle = :db_condition_placeholder_0
+LIMIT 10 OFFSET 0; Array
+(
+    [:db_condition_placeholder_0] => portfolio
+)
+" at /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/Database/Connection.php line 685
+[23-Oct-2017 11:28:52 Europe/Berlin] Uncaught PHP Exception InvalidArgumentException: "Field comment is unknown." at /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/Entity/ContentEntityBase.php line 509
+[23-Oct-2017 11:28:56 Europe/Berlin] Uncaught PHP Exception InvalidArgumentException: "Field comment is unknown." at /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/Entity/ContentEntityBase.php line 509
+[23-Oct-2017 11:29:01 Europe/Berlin] Uncaught PHP Exception InvalidArgumentException: "Field comment is unknown." at /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/Entity/ContentEntityBase.php line 509
+[23-Oct-2017 11:46:32 Europe/Berlin] Uncaught PHP Exception Drupal\Core\Database\DatabaseExceptionWrapper: "SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ourbus1q_projectenIII.field_deleted_data_c96853fab9' doesn't exist: SELECT DISTINCT t.entity_id AS entity_id
+FROM 
+{field_deleted_data_c96853fab9} t
+WHERE bundle = :db_condition_placeholder_0
+LIMIT 10 OFFSET 0; Array
+(
+    [:db_condition_placeholder_0] => portfolio
+)
+" at /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/Database/Connection.php line 685
+[23-Oct-2017 12:15:13 Europe/Berlin] Uncaught PHP Exception Drupal\Core\Database\DatabaseExceptionWrapper: "SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ourbus1q_projectenIII.field_deleted_data_c96853fab9' doesn't exist: SELECT DISTINCT t.entity_id AS entity_id
+FROM 
+{field_deleted_data_c96853fab9} t
+WHERE bundle = :db_condition_placeholder_0
+LIMIT 10 OFFSET 0; Array
+(
+    [:db_condition_placeholder_0] => portfolio
+)
+" at /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/Database/Connection.php line 685
+[23-Oct-2017 14:11:31 Europe/Berlin] Uncaught PHP Exception InvalidArgumentException: "The internal path component 'shop' is invalid. Its path component must have a leading slash, e.g. internal:/foo." at /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/Url.php line 404
+[24-Oct-2017 16:55:26 Europe/Berlin] Uncaught PHP Exception InvalidArgumentException: "The internal path component 'shop' is invalid. Its path component must have a leading slash, e.g. internal:/foo." at /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/Url.php line 404
+[26-Oct-2017 12:45:26 Europe/Berlin] Uncaught PHP Exception Drupal\Core\Database\DatabaseExceptionWrapper: "SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ourbus1q_projectenIII.field_deleted_data_c96853fab9' doesn't exist: SELECT DISTINCT t.entity_id AS entity_id
+FROM 
+{field_deleted_data_c96853fab9} t
+WHERE bundle = :db_condition_placeholder_0
+LIMIT 10 OFFSET 0; Array
+(
+    [:db_condition_placeholder_0] => portfolio
+)
+" at /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/Database/Connection.php line 685
+[26-Oct-2017 12:49:28 Europe/Berlin] Uncaught PHP Exception Drupal\Core\Database\DatabaseExceptionWrapper: "SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ourbus1q_projectenIII.field_deleted_data_c96853fab9' doesn't exist: SELECT DISTINCT t.entity_id AS entity_id
+FROM 
+{field_deleted_data_c96853fab9} t
+WHERE bundle = :db_condition_placeholder_0
+LIMIT 10 OFFSET 0; Array
+(
+    [:db_condition_placeholder_0] => portfolio
+)
+" at /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/Database/Connection.php line 685
+[26-Oct-2017 12:51:06 Europe/Berlin] Uncaught PHP Exception Drupal\Core\Database\DatabaseExceptionWrapper: "SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ourbus1q_projectenIII.field_deleted_data_c96853fab9' doesn't exist: SELECT DISTINCT t.entity_id AS entity_id
+FROM 
+{field_deleted_data_c96853fab9} t
+WHERE bundle = :db_condition_placeholder_0
+LIMIT 10 OFFSET 0; Array
+(
+    [:db_condition_placeholder_0] => portfolio
+)
+" at /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/Database/Connection.php line 685
+[26-Oct-2017 15:07:32 Europe/Berlin] Uncaught PHP Exception Drupal\Core\Database\DatabaseExceptionWrapper: "SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ourbus1q_projectenIII.field_deleted_data_c96853fab9' doesn't exist: SELECT DISTINCT t.entity_id AS entity_id
+FROM 
+{field_deleted_data_c96853fab9} t
+WHERE bundle = :db_condition_placeholder_0
+LIMIT 10 OFFSET 0; Array
+(
+    [:db_condition_placeholder_0] => portfolio
+)
+" at /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/Database/Connection.php line 685
+[30-Oct-2017 09:38:38 Europe/Berlin] Uncaught PHP Exception Drupal\Core\Database\DatabaseExceptionWrapper: "SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ourbus1q_projectenIII.field_deleted_data_c96853fab9' doesn't exist: SELECT DISTINCT t.entity_id AS entity_id
+FROM 
+{field_deleted_data_c96853fab9} t
+WHERE bundle = :db_condition_placeholder_0
+LIMIT 10 OFFSET 0; Array
+(
+    [:db_condition_placeholder_0] => portfolio
+)
+" at /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/Database/Connection.php line 685
+[30-Oct-2017 09:47:03 Europe/Berlin] Uncaught PHP Exception Drupal\Component\Plugin\Exception\PluginException: "Plugin (video_embed_wysiwyg) instance class "Drupal\video_embed_wysiwyg\Plugin\Filter\VideoEmbedWysiwyg" does not exist." at /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Component/Plugin/Factory/DefaultFactory.php line 97
+[30-Oct-2017 09:47:26 Europe/Berlin] Uncaught PHP Exception Drupal\Component\Plugin\Exception\PluginException: "Plugin (video_embed_wysiwyg) instance class "Drupal\video_embed_wysiwyg\Plugin\Filter\VideoEmbedWysiwyg" does not exist." at /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Component/Plugin/Factory/DefaultFactory.php line 97
+[30-Oct-2017 09:47:30 Europe/Berlin] Uncaught PHP Exception Drupal\Component\Plugin\Exception\PluginException: "Plugin (video_embed_wysiwyg) instance class "Drupal\video_embed_wysiwyg\Plugin\Filter\VideoEmbedWysiwyg" does not exist." at /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Component/Plugin/Factory/DefaultFactory.php line 97
+[30-Oct-2017 09:50:05 Europe/Berlin] Uncaught PHP Exception Drupal\Core\Database\DatabaseExceptionWrapper: "SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ourbus1q_projectenIII.field_deleted_data_c96853fab9' doesn't exist: SELECT DISTINCT t.entity_id AS entity_id
+FROM 
+{field_deleted_data_c96853fab9} t
+WHERE bundle = :db_condition_placeholder_0
+LIMIT 10 OFFSET 0; Array
+(
+    [:db_condition_placeholder_0] => portfolio
+)
+" at /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/Database/Connection.php line 685
+[30-Oct-2017 10:05:34 Europe/Berlin] Uncaught PHP Exception Drupal\Core\Database\DatabaseExceptionWrapper: "SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ourbus1q_projectenIII.field_deleted_data_c96853fab9' doesn't exist: SELECT DISTINCT t.entity_id AS entity_id
+FROM 
+{field_deleted_data_c96853fab9} t
+WHERE bundle = :db_condition_placeholder_0
+LIMIT 10 OFFSET 0; Array
+(
+    [:db_condition_placeholder_0] => portfolio
+)
+" at /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/Database/Connection.php line 685
+[30-Oct-2017 10:08:20 Europe/Berlin] Uncaught PHP Exception Drupal\Core\Database\DatabaseExceptionWrapper: "SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ourbus1q_projectenIII.field_deleted_data_c96853fab9' doesn't exist: SELECT DISTINCT t.entity_id AS entity_id
+FROM 
+{field_deleted_data_c96853fab9} t
+WHERE bundle = :db_condition_placeholder_0
+LIMIT 10 OFFSET 0; Array
+(
+    [:db_condition_placeholder_0] => portfolio
+)
+" at /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/Database/Connection.php line 685
+[30-Oct-2017 11:07:36 Europe/Berlin] Uncaught PHP Exception Drupal\Core\Database\DatabaseExceptionWrapper: "SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ourbus1q_projectenIII.field_deleted_data_c96853fab9' doesn't exist: SELECT DISTINCT t.entity_id AS entity_id
+FROM 
+{field_deleted_data_c96853fab9} t
+WHERE bundle = :db_condition_placeholder_0
+LIMIT 10 OFFSET 0; Array
+(
+    [:db_condition_placeholder_0] => portfolio
+)
+" at /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/Database/Connection.php line 685
