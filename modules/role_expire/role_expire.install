@@ -1,0 +1,59 @@
+<?php
+
+/**
+ * @file
+ * Role expire install.
+ */
+
+
+/**
+ * Implements hook_schema().
+ */
+function role_expire_schema() {
+  $schema = array();
+
+  $schema['role_expire'] = array(
+    'description' => t('Expiration time for the user roles.'),
+    'fields' => array(
+      'uid' => array(
+        'type' => 'int',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+        'description' => t('User ID connected with expiration time.')
+      ),
+      'rid' => array(
+        'type' => 'varchar',
+        'not null' => TRUE,
+        'length' => 128,
+        'description' => 'The role ID assigned to the user.',
+      ),
+      'expiry_timestamp' => array(
+        'type' => 'int',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+        'default' => 0,
+        'description' => t('Role expiration timestamp.'),
+      )
+    ),
+    'primary key' => array('uid', 'rid'),
+  );
+  $schema['role_expire_length'] = array(
+    'description' => t('Length in days to assign each role by default.'),
+    'fields' => array(
+      'rid' => array(
+        'type' => 'varchar',
+        'not null' => TRUE,
+        'length' => 128,
+        'description' => 'The role ID assigned to the user.',
+      ),
+      'duration' => array(
+        'type' => 'int',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+        'description' => t('The default duration for the role.')
+      ),
+    ),
+    'primary key' => array('rid'),
+  );
+  return $schema;
+}
