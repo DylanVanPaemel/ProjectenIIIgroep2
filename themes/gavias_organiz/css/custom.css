@@ -1,0 +1,20 @@
+.views-exposed-form
+{
+
+    width:80%;
+    margin-bottom:35px;
+}
+
+#edit-actions
+{
+    width:35%;
+    float:right;
+     margin-bottom:30px;
+}
+
+.form-item-field-videocategorie-target-id 
+{
+    float:left;
+    width:40%;
+     margin-bottom:35px;
+}
