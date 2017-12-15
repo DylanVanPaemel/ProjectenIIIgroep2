@@ -767,3 +767,118 @@ WHERE (s.source IN (:db_condition_placeholder_0)) AND (s.context IN (:db_conditi
 #20 /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/DrupalKernel.php(656): Stack\StackedHttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
 #21 /home/ourbus1q/projecten.ourbusinessmedia.be/index.php(19): Drupal\Core\DrupalKernel->handle(Object(Symfony\Component\HttpFoundation\Request))
 #22 {main}
+[21-Nov-2017 14:42:00 Europe/Berlin] Uncaught PHP Exception Doctrine\Common\Annotations\AnnotationException: "[Syntax Error] Expected Doctrine\Common\Annotations\DocLexer::T_CLOSE_CURLY_BRACES, got 'expiration' at position 344 in class Drupal\user_expire\Plugin\RulesAction\UserExpire." at /home/ourbus1q/projecten.ourbusinessmedia.be/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/AnnotationException.php line 42
+[21-Nov-2017 14:42:06 Europe/Berlin] Uncaught PHP Exception Doctrine\Common\Annotations\AnnotationException: "[Syntax Error] Expected Doctrine\Common\Annotations\DocLexer::T_CLOSE_CURLY_BRACES, got 'expiration' at position 344 in class Drupal\user_expire\Plugin\RulesAction\UserExpire." at /home/ourbus1q/projecten.ourbusinessmedia.be/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/AnnotationException.php line 42
+[21-Nov-2017 14:43:01 Europe/Berlin] Uncaught PHP Exception Doctrine\Common\Annotations\AnnotationException: "[Syntax Error] Expected Doctrine\Common\Annotations\DocLexer::T_CLOSE_CURLY_BRACES, got 'expiration' at position 344 in class Drupal\user_expire\Plugin\RulesAction\UserExpire." at /home/ourbus1q/projecten.ourbusinessmedia.be/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/AnnotationException.php line 42
+[21-Nov-2017 14:43:07 Europe/Berlin] Uncaught PHP Exception Doctrine\Common\Annotations\AnnotationException: "[Syntax Error] Expected Doctrine\Common\Annotations\DocLexer::T_CLOSE_CURLY_BRACES, got 'expiration' at position 344 in class Drupal\user_expire\Plugin\RulesAction\UserExpire." at /home/ourbus1q/projecten.ourbusinessmedia.be/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/AnnotationException.php line 42
+[21-Nov-2017 14:43:20 Europe/Berlin] Uncaught PHP Exception Doctrine\Common\Annotations\AnnotationException: "[Syntax Error] Expected Doctrine\Common\Annotations\DocLexer::T_CLOSE_CURLY_BRACES, got 'expiration' at position 344 in class Drupal\user_expire\Plugin\RulesAction\UserExpire." at /home/ourbus1q/projecten.ourbusinessmedia.be/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/AnnotationException.php line 42
+[06-Dec-2017 14:38:44 Europe/Berlin] PHP Fatal error:  Maximum execution time of 240 seconds exceeded in /home/ourbus1q/projecten.ourbusinessmedia.be/modules/backup_migrate/lib/backup_migrate_core/src/File/WritableStreamBackupFile.php on line 76
+[06-Dec-2017 14:52:42 Europe/Berlin] PHP Fatal error:  Maximum execution time of 240 seconds exceeded in /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/StreamWrapper/LocalStream.php on line 226
+[06-Dec-2017 15:24:42 Europe/Amsterdam] PHP Warning:  Unknown: Unable to create temporary file, Check permissions in temporary files directory. in Unknown on line 0
+[06-Dec-2017 15:24:42 Europe/Amsterdam] PHP Warning:  Unknown: POST data can't be buffered; all data discarded in Unknown on line 0
+[06-Dec-2017 15:25:02 Europe/Amsterdam] PHP Warning:  Unknown: Unable to create temporary file, Check permissions in temporary files directory. in Unknown on line 0
+[06-Dec-2017 15:25:02 Europe/Amsterdam] PHP Warning:  Unknown: POST data can't be buffered; all data discarded in Unknown on line 0
+[06-Dec-2017 15:25:15 Europe/Amsterdam] PHP Warning:  Unknown: Unable to create temporary file, Check permissions in temporary files directory. in Unknown on line 0
+[06-Dec-2017 15:25:15 Europe/Amsterdam] PHP Warning:  Unknown: POST data can't be buffered; all data discarded in Unknown on line 0
+[06-Dec-2017 15:25:34 Europe/Amsterdam] PHP Warning:  Unknown: Unable to create temporary file, Check permissions in temporary files directory. in Unknown on line 0
+[06-Dec-2017 15:25:34 Europe/Amsterdam] PHP Warning:  Unknown: POST data can't be buffered; all data discarded in Unknown on line 0
+[06-Dec-2017 15:33:24 Europe/Amsterdam] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[06-Dec-2017 15:33:41 Europe/Amsterdam] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[06-Dec-2017 15:35:32 Europe/Amsterdam] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[06-Dec-2017 15:35:56 Europe/Amsterdam] PHP Warning:  Unknown: Unable to create temporary file, Check permissions in temporary files directory. in Unknown on line 0
+[06-Dec-2017 15:35:56 Europe/Amsterdam] PHP Warning:  Unknown: POST data can't be buffered; all data discarded in Unknown on line 0
+[06-Dec-2017 15:36:12 Europe/Amsterdam] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[06-Dec-2017 15:37:08 Europe/Amsterdam] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[06-Dec-2017 15:45:47 Europe/Berlin] Error: Call to undefined function url() in /home/ourbus1q/projecten.ourbusinessmedia.be/modules/purechat/purechat.module on line 99 #0 [internal function]: purechat_requirements('runtime')
+#1 /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/Extension/ModuleHandler.php(402): call_user_func_array('purechat_requir...', Array)
+#2 /home/ourbus1q/projecten.ourbusinessmedia.be/core/modules/system/src/SystemManager.php(112): Drupal\Core\Extension\ModuleHandler->invokeAll('requirements', Array)
+#3 /home/ourbus1q/projecten.ourbusinessmedia.be/core/modules/system/src/SystemManager.php(96): Drupal\system\SystemManager->listRequirements()
+#4 /home/ourbus1q/projecten.ourbusinessmedia.be/core/modules/system/src/Controller/SystemController.php(102): Drupal\system\SystemManager->checkRequirements()
+#5 /home/ourbus1q/projecten.ourbusinessmedia.be/modules/ubercart/uc_store/src/Controller/StoreController.php(16): Drupal\system\Controller\SystemController->overview('uc_store.admin....')
+#6 [internal function]: Drupal\uc_store\Controller\StoreController->overview('uc_store.admin....')
+#7 /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/EventSubscriber/EarlyRenderingControllerWrapperSubscriber.php(123): call_user_func_array(Array, Array)
+#8 /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/Render/Renderer.php(574): Drupal\Core\EventSubscriber\EarlyRenderingControllerWrapperSubscriber->Drupal\Core\EventSubscriber\{closure}()
+#9 /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/EventSubscriber/EarlyRenderingControllerWrapperSubscriber.php(124): Drupal\Core\Render\Renderer->executeInRenderContext(Object(Drupal\Core\Render\RenderContext), Object(Closure))
+#10 /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/EventSubscriber/EarlyRenderingControllerWrapperSubscriber.php(97): Drupal\Core\EventSubscriber\EarlyRenderingControllerWrapperSubscriber->wrapControllerExecutionInRenderContext(Array, Array)
+#11 [internal function]: Drupal\Core\EventSubscriber\EarlyRenderingControllerWrapperSubscriber->Drupal\Core\EventSubscriber\{closure}()
+#12 /home/ourbus1q/projecten.ourbusinessmedia.be/vendor/symfony/http-kernel/HttpKernel.php(144): call_user_func_array(Object(Closure), Array)
+#13 /home/ourbus1q/projecten.ourbusinessmedia.be/vendor/symfony/http-kernel/HttpKernel.php(64): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#14 /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/StackMiddleware/Session.php(57): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#15 /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/StackMiddleware/KernelPreHandle.php(47): Drupal\Core\StackMiddleware\Session->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#16 /home/ourbus1q/projecten.ourbusinessmedia.be/core/modules/page_cache/src/StackMiddleware/PageCache.php(99): Drupal\Core\StackMiddleware\KernelPreHandle->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#17 /home/ourbus1q/projecten.ourbusinessmedia.be/core/modules/page_cache/src/StackMiddleware/PageCache.php(78): Drupal\page_cache\StackMiddleware\PageCache->pass(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#18 /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/StackMiddleware/ReverseProxyMiddleware.php(47): Drupal\page_cache\StackMiddleware\PageCache->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#19 /home/ou[06-Dec-2017 16:11:07 Europe/Berlin] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/StreamWrapper/LocalStream.php on line 226
+[12-Dec-2017 15:10:07 Europe/Berlin] Uncaught PHP Exception Symfony\Component\Routing\Exception\RouteNotFoundException: "Route "view.nba_feed.feed_1" does not exist." at /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/Routing/RouteProvider.php line 190
+[12-Dec-2017 15:10:36 Europe/Berlin] Uncaught PHP Exception Symfony\Component\Routing\Exception\RouteNotFoundException: "Route "view.nba_feed.feed_1" does not exist." at /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/Routing/RouteProvider.php line 190
+[12-Dec-2017 15:10:46 Europe/Berlin] Uncaught PHP Exception Symfony\Component\Routing\Exception\RouteNotFoundException: "Route "view.nba_feed.feed_1" does not exist." at /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/Routing/RouteProvider.php line 190
+[12-Dec-2017 15:10:53 Europe/Berlin] Uncaught PHP Exception Symfony\Component\Routing\Exception\RouteNotFoundException: "Route "view.nba_feed.feed_1" does not exist." at /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/Routing/RouteProvider.php line 190
+[14-Dec-2017 15:05:58 Europe/Berlin] Error: Call to undefined function url() in /home/ourbus1q/projecten.ourbusinessmedia.be/modules/purechat/purechat.module on line 99 #0 [internal function]: purechat_requirements('runtime')
+#1 /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/Extension/ModuleHandler.php(402): call_user_func_array('purechat_requir...', Array)
+#2 /home/ourbus1q/projecten.ourbusinessmedia.be/core/modules/system/src/SystemManager.php(112): Drupal\Core\Extension\ModuleHandler->invokeAll('requirements', Array)
+#3 /home/ourbus1q/projecten.ourbusinessmedia.be/core/modules/system/src/SystemManager.php(96): Drupal\system\SystemManager->listRequirements()
+#4 /home/ourbus1q/projecten.ourbusinessmedia.be/core/modules/system/src/Controller/SystemController.php(102): Drupal\system\SystemManager->checkRequirements()
+#5 [internal function]: Drupal\system\Controller\SystemController->overview('system.admin_co...')
+#6 /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/EventSubscriber/EarlyRenderingControllerWrapperSubscriber.php(123): call_user_func_array(Array, Array)
+#7 /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/Render/Renderer.php(574): Drupal\Core\EventSubscriber\EarlyRenderingControllerWrapperSubscriber->Drupal\Core\EventSubscriber\{closure}()
+#8 /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/EventSubscriber/EarlyRenderingControllerWrapperSubscriber.php(124): Drupal\Core\Render\Renderer->executeInRenderContext(Object(Drupal\Core\Render\RenderContext), Object(Closure))
+#9 /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/EventSubscriber/EarlyRenderingControllerWrapperSubscriber.php(97): Drupal\Core\EventSubscriber\EarlyRenderingControllerWrapperSubscriber->wrapControllerExecutionInRenderContext(Array, Array)
+#10 [internal function]: Drupal\Core\EventSubscriber\EarlyRenderingControllerWrapperSubscriber->Drupal\Core\EventSubscriber\{closure}()
+#11 /home/ourbus1q/projecten.ourbusinessmedia.be/vendor/symfony/http-kernel/HttpKernel.php(144): call_user_func_array(Object(Closure), Array)
+#12 /home/ourbus1q/projecten.ourbusinessmedia.be/vendor/symfony/http-kernel/HttpKernel.php(64): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#13 /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/StackMiddleware/Session.php(57): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#14 /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/StackMiddleware/KernelPreHandle.php(47): Drupal\Core\StackMiddleware\Session->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#15 /home/ourbus1q/projecten.ourbusinessmedia.be/core/modules/page_cache/src/StackMiddleware/PageCache.php(99): Drupal\Core\StackMiddleware\KernelPreHandle->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#16 /home/ourbus1q/projecten.ourbusinessmedia.be/core/modules/page_cache/src/StackMiddleware/PageCache.php(78): Drupal\page_cache\StackMiddleware\PageCache->pass(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#17 /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/StackMiddleware/ReverseProxyMiddleware.php(47): Drupal\page_cache\StackMiddleware\PageCache->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#18 /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/StackMiddleware/NegotiationMiddleware.php(50): Drupal\Core\StackMiddleware\ReverseProxyMiddleware->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#19 /home/ourbus1q/projecten.ourbusinessmedia.be/vendor/stack/builder/src/Stack/StackedHttpKernel.php(23): Drupal\Core\StackMiddleware\NegotiationMiddleware->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#20 /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/DrupalKernel.php(656): Stack\StackedHttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#21 /home/ourbus1q/projecten.ourbusinessmedia.be/index.php(19): Drupal\Core\DrupalKernel->handle(Object(Symfony\Component\HttpFoundation\Request))
+#22 {main}
+[14-Dec-2017 15:06:01 Europe/Berlin] Error: Call to undefined function url() in /home/ourbus1q/projecten.ourbusinessmedia.be/modules/purechat/purechat.module on line 99 #0 [internal function]: purechat_requirements('runtime')
+#1 /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/Extension/ModuleHandler.php(402): call_user_func_array('purechat_requir...', Array)
+#2 /home/ourbus1q/projecten.ourbusinessmedia.be/core/modules/system/src/SystemManager.php(112): Drupal\Core\Extension\ModuleHandler->invokeAll('requirements', Array)
+#3 /home/ourbus1q/projecten.ourbusinessmedia.be/core/modules/system/src/SystemManager.php(96): Drupal\system\SystemManager->listRequirements()
+#4 /home/ourbus1q/projecten.ourbusinessmedia.be/core/modules/system/src/Controller/SystemController.php(102): Drupal\system\SystemManager->checkRequirements()
+#5 [internal function]: Drupal\system\Controller\SystemController->overview('system.admin_co...')
+#6 /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/EventSubscriber/EarlyRenderingControllerWrapperSubscriber.php(123): call_user_func_array(Array, Array)
+#7 /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/Render/Renderer.php(574): Drupal\Core\EventSubscriber\EarlyRenderingControllerWrapperSubscriber->Drupal\Core\EventSubscriber\{closure}()
+#8 /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/EventSubscriber/EarlyRenderingControllerWrapperSubscriber.php(124): Drupal\Core\Render\Renderer->executeInRenderContext(Object(Drupal\Core\Render\RenderContext), Object(Closure))
+#9 /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/EventSubscriber/EarlyRenderingControllerWrapperSubscriber.php(97): Drupal\Core\EventSubscriber\EarlyRenderingControllerWrapperSubscriber->wrapControllerExecutionInRenderContext(Array, Array)
+#10 [internal function]: Drupal\Core\EventSubscriber\EarlyRenderingControllerWrapperSubscriber->Drupal\Core\EventSubscriber\{closure}()
+#11 /home/ourbus1q/projecten.ourbusinessmedia.be/vendor/symfony/http-kernel/HttpKernel.php(144): call_user_func_array(Object(Closure), Array)
+#12 /home/ourbus1q/projecten.ourbusinessmedia.be/vendor/symfony/http-kernel/HttpKernel.php(64): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#13 /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/StackMiddleware/Session.php(57): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#14 /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/StackMiddleware/KernelPreHandle.php(47): Drupal\Core\StackMiddleware\Session->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#15 /home/ourbus1q/projecten.ourbusinessmedia.be/core/modules/page_cache/src/StackMiddleware/PageCache.php(99): Drupal\Core\StackMiddleware\KernelPreHandle->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#16 /home/ourbus1q/projecten.ourbusinessmedia.be/core/modules/page_cache/src/StackMiddleware/PageCache.php(78): Drupal\page_cache\StackMiddleware\PageCache->pass(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#17 /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/StackMiddleware/ReverseProxyMiddleware.php(47): Drupal\page_cache\StackMiddleware\PageCache->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#18 /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/StackMiddleware/NegotiationMiddleware.php(50): Drupal\Core\StackMiddleware\ReverseProxyMiddleware->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#19 /home/ourbus1q/projecten.ourbusinessmedia.be/vendor/stack/builder/src/Stack/StackedHttpKernel.php(23): Drupal\Core\StackMiddleware\NegotiationMiddleware->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#20 /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/DrupalKernel.php(656): Stack\StackedHttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#21 /home/ourbus1q/projecten.ourbusinessmedia.be/index.php(19): Drupal\Core\DrupalKernel->handle(Object(Symfony\Component\HttpFoundation\Request))
+#22 {main}
+[15-Dec-2017 16:46:45 Europe/Berlin] Error: Call to undefined function url() in /home/ourbus1q/projecten.ourbusinessmedia.be/modules/purechat/purechat.module on line 99 #0 [internal function]: purechat_requirements('runtime')
+#1 /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/Extension/ModuleHandler.php(402): call_user_func_array('purechat_requir...', Array)
+#2 /home/ourbus1q/projecten.ourbusinessmedia.be/core/modules/system/src/SystemManager.php(112): Drupal\Core\Extension\ModuleHandler->invokeAll('requirements', Array)
+#3 /home/ourbus1q/projecten.ourbusinessmedia.be/core/modules/system/src/SystemManager.php(96): Drupal\system\SystemManager->listRequirements()
+#4 /home/ourbus1q/projecten.ourbusinessmedia.be/core/modules/system/src/Controller/SystemController.php(102): Drupal\system\SystemManager->checkRequirements()
+#5 [internal function]: Drupal\system\Controller\SystemController->overview('system.admin_co...')
+#6 /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/EventSubscriber/EarlyRenderingControllerWrapperSubscriber.php(123): call_user_func_array(Array, Array)
+#7 /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/Render/Renderer.php(574): Drupal\Core\EventSubscriber\EarlyRenderingControllerWrapperSubscriber->Drupal\Core\EventSubscriber\{closure}()
+#8 /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/EventSubscriber/EarlyRenderingControllerWrapperSubscriber.php(124): Drupal\Core\Render\Renderer->executeInRenderContext(Object(Drupal\Core\Render\RenderContext), Object(Closure))
+#9 /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/EventSubscriber/EarlyRenderingControllerWrapperSubscriber.php(97): Drupal\Core\EventSubscriber\EarlyRenderingControllerWrapperSubscriber->wrapControllerExecutionInRenderContext(Array, Array)
+#10 [internal function]: Drupal\Core\EventSubscriber\EarlyRenderingControllerWrapperSubscriber->Drupal\Core\EventSubscriber\{closure}()
+#11 /home/ourbus1q/projecten.ourbusinessmedia.be/vendor/symfony/http-kernel/HttpKernel.php(144): call_user_func_array(Object(Closure), Array)
+#12 /home/ourbus1q/projecten.ourbusinessmedia.be/vendor/symfony/http-kernel/HttpKernel.php(64): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#13 /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/StackMiddleware/Session.php(57): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#14 /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/StackMiddleware/KernelPreHandle.php(47): Drupal\Core\StackMiddleware\Session->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#15 /home/ourbus1q/projecten.ourbusinessmedia.be/core/modules/page_cache/src/StackMiddleware/PageCache.php(99): Drupal\Core\StackMiddleware\KernelPreHandle->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#16 /home/ourbus1q/projecten.ourbusinessmedia.be/core/modules/page_cache/src/StackMiddleware/PageCache.php(78): Drupal\page_cache\StackMiddleware\PageCache->pass(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#17 /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/StackMiddleware/ReverseProxyMiddleware.php(47): Drupal\page_cache\StackMiddleware\PageCache->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#18 /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/StackMiddleware/NegotiationMiddleware.php(50): Drupal\Core\StackMiddleware\ReverseProxyMiddleware->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#19 /home/ourbus1q/projecten.ourbusinessmedia.be/vendor/stack/builder/src/Stack/StackedHttpKernel.php(23): Drupal\Core\StackMiddleware\NegotiationMiddleware->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#20 /home/ourbus1q/projecten.ourbusinessmedia.be/core/lib/Drupal/Core/DrupalKernel.php(656): Stack\StackedHttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#21 /home/ourbus1q/projecten.ourbusinessmedia.be/index.php(19): Drupal\Core\DrupalKernel->handle(Object(Symfony\Component\HttpFoundation\Request))
+#22 {main}
